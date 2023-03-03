@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1344576B294B8E4500427E43 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1344576A294B8E4500427E43 /* MainViewController.swift */; };
+		1344576E294B93FE00427E43 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1344576D294B93FE00427E43 /* MainCollectionViewCell.swift */; };
+		13445771294B965600427E43 /* SubjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13445770294B965600427E43 /* SubjectModel.swift */; };
+		13445774294BA96600427E43 /* CreateItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13445773294BA96600427E43 /* CreateItemViewController.swift */; };
+		13445776294BAA9000427E43 /* CreateItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13445775294BAA9000427E43 /* CreateItemCollectionViewCell.swift */; };
+		13445778294BB19A00427E43 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13445777294BB19A00427E43 /* DetailViewController.swift */; };
+		1344577A294BB24800427E43 /* QuestionAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13445779294BB24800427E43 /* QuestionAnswerModel.swift */; };
+		1344577C294BB4DB00427E43 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1344577B294BB4DB00427E43 /* QuestionTableViewCell.swift */; };
+		1344577E294BB9AE00427E43 /* CreateQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1344577D294BB9AE00427E43 /* CreateQuestionViewController.swift */; };
+		13445780294BBF0D00427E43 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1344577F294BBF0D00427E43 /* MainTabBarController.swift */; };
+		13445782294BC3B900427E43 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13445781294BC3B900427E43 /* TestViewController.swift */; };
+		136D291A2948A1F0005D36C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D29192948A1F0005D36C2 /* AppDelegate.swift */; };
+		136D291C2948A1F0005D36C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D291B2948A1F0005D36C2 /* SceneDelegate.swift */; };
+		136D29242948A1F0005D36C2 /* DayindalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 136D29222948A1F0005D36C2 /* DayindalApp.xcdatamodeld */; };
+		136D29262948A1F2005D36C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136D29252948A1F2005D36C2 /* Assets.xcassets */; };
+		136D29292948A1F2005D36C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136D29272948A1F2005D36C2 /* LaunchScreen.storyboard */; };
+		1620E8CE294C683000D02045 /* FlashCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1620E8CD294C683000D02045 /* FlashCardViewController.swift */; };
+		1620E8D0294C8B6400D02045 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1620E8CF294C8B6400D02045 /* QuizViewController.swift */; };
+		16913A3C294C5D0E008DCE5B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16913A3B294C5D0E008DCE5B /* UIColorExtension.swift */; };
+		16913A40294C5DF8008DCE5B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16913A3F294C5DF8008DCE5B /* CustomButton.swift */; };
+		16C0BD832953A31500AC9CA0 /* EditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD822953A31500AC9CA0 /* EditingViewController.swift */; };
+		16C0BD8729549D9A00AC9CA0 /* Flashcard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD8629549D9A00AC9CA0 /* Flashcard+Ext.swift */; };
+		16C0BD892954AFE200AC9CA0 /* Quiz+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD882954AFE200AC9CA0 /* Quiz+Ext.swift */; };
+		16C0BD8B2954B4E000AC9CA0 /* VariantButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD8A2954B4E000AC9CA0 /* VariantButton.swift */; };
+		16C0BD912955007300AC9CA0 /* ExamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD902955007300AC9CA0 /* ExamTableViewCell.swift */; };
+		16C0BD932955009F00AC9CA0 /* ExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD922955009F00AC9CA0 /* ExamViewController.swift */; };
+		16C0BD95295500CC00AC9CA0 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD94295500CC00AC9CA0 /* UIView+Ext.swift */; };
+		16C0BD972955174800AC9CA0 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD962955174800AC9CA0 /* ScoreViewController.swift */; };
+		C915FBD2927F85343D291BD6 /* Pods_DayindalApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E318159EEE7A0304EFE238A /* Pods_DayindalApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1344576A294B8E4500427E43 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1344576D294B93FE00427E43 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		13445770294B965600427E43 /* SubjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectModel.swift; sourceTree = "<group>"; };
+		13445773294BA96600427E43 /* CreateItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemViewController.swift; sourceTree = "<group>"; };
+		13445775294BAA9000427E43 /* CreateItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		13445777294BB19A00427E43 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		13445779294BB24800427E43 /* QuestionAnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswerModel.swift; sourceTree = "<group>"; };
+		1344577B294BB4DB00427E43 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		1344577D294BB9AE00427E43 /* CreateQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQuestionViewController.swift; sourceTree = "<group>"; };
+		1344577F294BBF0D00427E43 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		13445781294BC3B900427E43 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		136D29162948A1F0005D36C2 /* DayindalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayindalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		136D29192948A1F0005D36C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		136D291B2948A1F0005D36C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		136D29232948A1F0005D36C2 /* DayindalApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DayindalApp.xcdatamodel; sourceTree = "<group>"; };
+		136D29252948A1F2005D36C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		136D29282948A1F2005D36C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		136D292A2948A1F2005D36C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1620E8CD294C683000D02045 /* FlashCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardViewController.swift; sourceTree = "<group>"; };
+		1620E8CF294C8B6400D02045 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		16913A3B294C5D0E008DCE5B /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		16913A3F294C5DF8008DCE5B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		16C0BD822953A31500AC9CA0 /* EditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingViewController.swift; sourceTree = "<group>"; };
+		16C0BD8629549D9A00AC9CA0 /* Flashcard+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flashcard+Ext.swift"; sourceTree = "<group>"; };
+		16C0BD882954AFE200AC9CA0 /* Quiz+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quiz+Ext.swift"; sourceTree = "<group>"; };
+		16C0BD8A2954B4E000AC9CA0 /* VariantButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantButton.swift; sourceTree = "<group>"; };
+		16C0BD902955007300AC9CA0 /* ExamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamTableViewCell.swift; sourceTree = "<group>"; };
+		16C0BD922955009F00AC9CA0 /* ExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamViewController.swift; sourceTree = "<group>"; };
+		16C0BD94295500CC00AC9CA0 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		16C0BD962955174800AC9CA0 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		53D1455B6A650338BEBF4DB5 /* Pods-DayindalApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayindalApp.release.xcconfig"; path = "Target Support Files/Pods-DayindalApp/Pods-DayindalApp.release.xcconfig"; sourceTree = "<group>"; };
+		6467C87B72D0EA5E4C36209D /* Pods-DayindalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayindalApp.debug.xcconfig"; path = "Target Support Files/Pods-DayindalApp/Pods-DayindalApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8E318159EEE7A0304EFE238A /* Pods_DayindalApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayindalApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136D29132948A1F0005D36C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C915FBD2927F85343D291BD6 /* Pods_DayindalApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1344576C294B8E5B00427E43 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1344577F294BBF0D00427E43 /* MainTabBarController.swift */,
+				1344576A294B8E4500427E43 /* MainViewController.swift */,
+				13445773294BA96600427E43 /* CreateItemViewController.swift */,
+				13445777294BB19A00427E43 /* DetailViewController.swift */,
+				16C0BD822953A31500AC9CA0 /* EditingViewController.swift */,
+				1344577D294BB9AE00427E43 /* CreateQuestionViewController.swift */,
+				13445781294BC3B900427E43 /* TestViewController.swift */,
+				1620E8CD294C683000D02045 /* FlashCardViewController.swift */,
+				1620E8CF294C8B6400D02045 /* QuizViewController.swift */,
+				16C0BD962955174800AC9CA0 /* ScoreViewController.swift */,
+				16C0BD922955009F00AC9CA0 /* ExamViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1344576F294B963D00427E43 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1344576D294B93FE00427E43 /* MainCollectionViewCell.swift */,
+				13445775294BAA9000427E43 /* CreateItemCollectionViewCell.swift */,
+				1344577B294BB4DB00427E43 /* QuestionTableViewCell.swift */,
+				16C0BD902955007300AC9CA0 /* ExamTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		13445772294B985400427E43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13445770294B965600427E43 /* SubjectModel.swift */,
+				13445779294BB24800427E43 /* QuestionAnswerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		136D290D2948A1F0005D36C2 = {
+			isa = PBXGroup;
+			children = (
+				136D29182948A1F0005D36C2 /* DayindalApp */,
+				136D29172948A1F0005D36C2 /* Products */,
+				6D3CD9EF2E08E68A732AEEE3 /* Pods */,
+				E19355848571C4D9076FDCD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		136D29172948A1F0005D36C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				136D29162948A1F0005D36C2 /* DayindalApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		136D29182948A1F0005D36C2 /* DayindalApp */ = {
+			isa = PBXGroup;
+			children = (
+				136D29192948A1F0005D36C2 /* AppDelegate.swift */,
+				136D291B2948A1F0005D36C2 /* SceneDelegate.swift */,
+				13445772294B985400427E43 /* Model */,
+				1344576F294B963D00427E43 /* Cell */,
+				16913A3A294C5CED008DCE5B /* Extension */,
+				1344576C294B8E5B00427E43 /* ViewController */,
+				136D29252948A1F2005D36C2 /* Assets.xcassets */,
+				136D29272948A1F2005D36C2 /* LaunchScreen.storyboard */,
+				136D292A2948A1F2005D36C2 /* Info.plist */,
+				136D29222948A1F0005D36C2 /* DayindalApp.xcdatamodeld */,
+			);
+			path = DayindalApp;
+			sourceTree = "<group>";
+		};
+		16913A3A294C5CED008DCE5B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				16913A3B294C5D0E008DCE5B /* UIColorExtension.swift */,
+				16913A3F294C5DF8008DCE5B /* CustomButton.swift */,
+				16C0BD8629549D9A00AC9CA0 /* Flashcard+Ext.swift */,
+				16C0BD882954AFE200AC9CA0 /* Quiz+Ext.swift */,
+				16C0BD8A2954B4E000AC9CA0 /* VariantButton.swift */,
+				16C0BD94295500CC00AC9CA0 /* UIView+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6D3CD9EF2E08E68A732AEEE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6467C87B72D0EA5E4C36209D /* Pods-DayindalApp.debug.xcconfig */,
+				53D1455B6A650338BEBF4DB5 /* Pods-DayindalApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E19355848571C4D9076FDCD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E318159EEE7A0304EFE238A /* Pods_DayindalApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		136D29152948A1F0005D36C2 /* DayindalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136D292D2948A1F2005D36C2 /* Build configuration list for PBXNativeTarget "DayindalApp" */;
+			buildPhases = (
+				B50D04DE64A8F8978FB54247 /* [CP] Check Pods Manifest.lock */,
+				136D29122948A1F0005D36C2 /* Sources */,
+				136D29132948A1F0005D36C2 /* Frameworks */,
+				136D29142948A1F0005D36C2 /* Resources */,
+				497B38F6D371275E4DCE2737 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayindalApp;
+			productName = DayindalApp;
+			productReference = 136D29162948A1F0005D36C2 /* DayindalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		136D290E2948A1F0005D36C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					136D29152948A1F0005D36C2 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 136D29112948A1F0005D36C2 /* Build configuration list for PBXProject "DayindalApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 136D290D2948A1F0005D36C2;
+			productRefGroup = 136D29172948A1F0005D36C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				136D29152948A1F0005D36C2 /* DayindalApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		136D29142948A1F0005D36C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136D29292948A1F2005D36C2 /* LaunchScreen.storyboard in Resources */,
+				136D29262948A1F2005D36C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		497B38F6D371275E4DCE2737 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayindalApp/Pods-DayindalApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayindalApp/Pods-DayindalApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayindalApp/Pods-DayindalApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B50D04DE64A8F8978FB54247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayindalApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		136D29122948A1F0005D36C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13445771294B965600427E43 /* SubjectModel.swift in Sources */,
+				16913A40294C5DF8008DCE5B /* CustomButton.swift in Sources */,
+				1344576E294B93FE00427E43 /* MainCollectionViewCell.swift in Sources */,
+				16C0BD932955009F00AC9CA0 /* ExamViewController.swift in Sources */,
+				13445774294BA96600427E43 /* CreateItemViewController.swift in Sources */,
+				16C0BD972955174800AC9CA0 /* ScoreViewController.swift in Sources */,
+				1344577E294BB9AE00427E43 /* CreateQuestionViewController.swift in Sources */,
+				136D291A2948A1F0005D36C2 /* AppDelegate.swift in Sources */,
+				16C0BD8729549D9A00AC9CA0 /* Flashcard+Ext.swift in Sources */,
+				136D291C2948A1F0005D36C2 /* SceneDelegate.swift in Sources */,
+				13445776294BAA9000427E43 /* CreateItemCollectionViewCell.swift in Sources */,
+				13445778294BB19A00427E43 /* DetailViewController.swift in Sources */,
+				16C0BD832953A31500AC9CA0 /* EditingViewController.swift in Sources */,
+				16C0BD95295500CC00AC9CA0 /* UIView+Ext.swift in Sources */,
+				136D29242948A1F0005D36C2 /* DayindalApp.xcdatamodeld in Sources */,
+				13445782294BC3B900427E43 /* TestViewController.swift in Sources */,
+				16913A3C294C5D0E008DCE5B /* UIColorExtension.swift in Sources */,
+				16C0BD892954AFE200AC9CA0 /* Quiz+Ext.swift in Sources */,
+				13445780294BBF0D00427E43 /* MainTabBarController.swift in Sources */,
+				1620E8D0294C8B6400D02045 /* QuizViewController.swift in Sources */,
+				16C0BD8B2954B4E000AC9CA0 /* VariantButton.swift in Sources */,
+				1344577C294BB4DB00427E43 /* QuestionTableViewCell.swift in Sources */,
+				16C0BD912955007300AC9CA0 /* ExamTableViewCell.swift in Sources */,
+				1620E8CE294C683000D02045 /* FlashCardViewController.swift in Sources */,
+				1344577A294BB24800427E43 /* QuestionAnswerModel.swift in Sources */,
+				1344576B294B8E4500427E43 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		136D29272948A1F2005D36C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				136D29282948A1F2005D36C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		136D292B2948A1F2005D36C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		136D292C2948A1F2005D36C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		136D292E2948A1F2005D36C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6467C87B72D0EA5E4C36209D /* Pods-DayindalApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NSA4Y9KC2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DayindalApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roma.irgizme.DayindalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		136D292F2948A1F2005D36C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D1455B6A650338BEBF4DB5 /* Pods-DayindalApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NSA4Y9KC2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DayindalApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roma.irgizme.DayindalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136D29112948A1F0005D36C2 /* Build configuration list for PBXProject "DayindalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136D292B2948A1F2005D36C2 /* Debug */,
+				136D292C2948A1F2005D36C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136D292D2948A1F2005D36C2 /* Build configuration list for PBXNativeTarget "DayindalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136D292E2948A1F2005D36C2 /* Debug */,
+				136D292F2948A1F2005D36C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		136D29222948A1F0005D36C2 /* DayindalApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				136D29232948A1F0005D36C2 /* DayindalApp.xcdatamodel */,
+			);
+			currentVersion = 136D29232948A1F0005D36C2 /* DayindalApp.xcdatamodel */;
+			path = DayindalApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 136D290E2948A1F0005D36C2 /* Project object */;
+}

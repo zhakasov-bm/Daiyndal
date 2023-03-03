@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "game-icons.pdf",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "game-icons-1.pdf",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "game-icons-2.pdf",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
