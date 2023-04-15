@@ -10,6 +10,12 @@ Step 2: Add questions and answers to the card.
 Step 3: When you're ready, use our test view controller to quiz yourself with a test or play a flashcard game using the questions you've added.
 
 With our program, you'll be able to easily organize and review your knowledge, ensuring that you retain important information for longer. Start using our program today and see how much easier it is to remember the things you need to know!
+
+## Tech Stack
+- UIKit
+- MVC
+
+
 ## Preview
 https://user-images.githubusercontent.com/126884891/222891615-f38461e6-a7e4-41f2-be9d-62a1fb0d85e4.mov
 
